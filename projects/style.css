@@ -111,6 +111,26 @@ body {
   background-color: #D82E2A;
 }
 
+.section-header {
+  margin: 0; /* Ensure no extra space around the section header */
+}
+
+.filter-tab-area .nav-tabs {
+  margin-bottom: 0; /* Remove any bottom margin from the nav tabs */
+}
+
+.filter-tab-area .nav-item .nav-link {
+  padding: 5px 10px; /* Adjust padding for better alignment */
+}
+
+@media (min-width: 992px) {
+  .top-stories-block .row.align-items-center {
+      display: flex;
+      align-items: center;
+  }
+}
+
+
 ::selection {
   color: #fff;
   background-color: #D82E2A;
